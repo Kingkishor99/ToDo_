@@ -7,7 +7,7 @@ const Stack = createStackNavigator();
 export default function MainNavigation() {
   return (
     <Stack.Navigator
-      initialRouteName={HomeScreen}
+      // initialRouteName={HomeScreen}
       screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="HomeScreen" component={HomeScreen} />
